@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <html lang="pt-br"></html>
+    <title>Confirmação</title>
+</head>
+<body style="background-color: orange;">
+    <?php
+        $mensagem = "Orçamento enviado!";
+        $mensagem = utf8_encode($mensagem);
+        echo "<h1>$mensagem</h1>";
+    ?>
+    <p>Obrigado por enviar seu orçamento.</p>
+    <button><a href="busca_prestador.php">Voltar para busca</a></button>
+</body>
+</html>
+Dessa forma, o texto "Orçamento enviado!" será codificado em UTF-8 antes de ser exibido na página, evitando o erro de caracteres.

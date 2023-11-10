@@ -1,0 +1,22 @@
+TRAMPO 10 v.1.1 – READ ME
+
+
+O Trampo 10 é uma plataforma de busca de profissionais para as mais diversas áreas, solicitando orçamentos de serviços. Desenvolvido em html, php, css e javascript.
+
+Observação 1: Para a instalação que será abordada, faz-se necessário o uso de navegadores compatíveis: Google Chrome, Firefox, Microsoft Edge ou Opera;
+
+Observação 2: A aplicação tem seu banco de dados hospedado no site db4free.net . 
+
+Instalação:
+
+<<<<<<< HEAD
+Após baixar a pasta compactada hospedada no link do GitHub.;
+Extrair todo o conteúdo da pasta compactada para o seu computador;
+=======
+Clique no botão "code (verde)" e em seguida escolher a opção "Download ZIP";
+>>>>>>> 8733a427a45d877bfa62f374ec92ed52860c217a
+Abrir o aplicativo “UwAmp.exe”;
+Na janela que será aberta, clicar no botão “Browser www”;
+
+
+Você já pode utilizar. Muito obrigado!

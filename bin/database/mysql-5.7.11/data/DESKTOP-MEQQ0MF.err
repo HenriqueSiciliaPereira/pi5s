@@ -1,0 +1,471 @@
+2023-11-10T00:31:20.538203Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2023-11-10T00:31:20.538203Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2023-11-10T00:31:20.538203Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2023-11-10T00:31:20.538203Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2023-11-10T00:31:20.539202Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2023-11-10T00:31:20.539202Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 17800 ...
+2023-11-10T00:31:20.572204Z 0 [ERROR] Can't open shared library 'C:\trampo10\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Não foi possível encontrar o módulo especificado.)
+2023-11-10T00:31:20.592200Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2023-11-10T00:31:20.595201Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-11-10T00:31:20.596205Z 0 [Note] InnoDB: Uses event mutexes
+2023-11-10T00:31:20.597202Z 0 [Note] InnoDB: Memory barrier is not used
+2023-11-10T00:31:20.598201Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-11-10T00:31:20.600202Z 0 [Note] InnoDB: Number of pools: 1
+2023-11-10T00:31:20.601202Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2023-11-10T00:31:20.809201Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2023-11-10T00:31:20.821200Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-11-10T00:31:20.867206Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-11-10T00:31:20.871204Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2603468
+2023-11-10T00:31:20.872201Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2603477
+2023-11-10T00:31:20.874202Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2603477
+2023-11-10T00:31:20.876204Z 0 [Note] InnoDB: Database was not shutdown normally!
+2023-11-10T00:31:20.877201Z 0 [Note] InnoDB: Starting crash recovery.
+2023-11-10T00:31:21.242206Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-11-10T00:31:21.243204Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-11-10T00:31:21.246206Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-11-10T00:31:21.300201Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2023-11-10T00:31:21.304201Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2023-11-10T00:31:21.308202Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2023-11-10T00:31:21.310201Z 0 [Note] InnoDB: Waiting for purge to start
+2023-11-10T00:31:21.370204Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603477
+2023-11-10T00:31:21.371204Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2023-11-10T00:31:21.392204Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\trampo10\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2023-11-10T00:31:21.393203Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-11-10T00:31:21.403205Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-11-10T00:31:21.405202Z 0 [Note] IPv6 is available.
+2023-11-10T00:31:21.406203Z 0 [Note]   - '::' resolves to '::';
+2023-11-10T00:31:21.408203Z 0 [Note] Server socket created on IP: '::'.
+2023-11-10T00:31:21.454202Z 0 [Note] InnoDB: Buffer pool(s) load completed at 231109 21:31:21
+2023-11-10T00:31:21.816205Z 0 [Note] Event Scheduler: Loaded 0 events
+2023-11-10T00:31:21.817201Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-11-10T00:31:42.989310Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2023-11-10T00:31:42.991310Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2023-11-10T00:31:42.993314Z 0 [Note] Shutting down slave threads
+2023-11-10T00:31:42.994314Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2023-11-10T00:31:42.996315Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-11-10T00:31:42.999314Z 0 [Note] Binlog end
+2023-11-10T00:31:43.000311Z 0 [Note] Shutting down plugin 'ngram'
+2023-11-10T00:31:43.001313Z 0 [Note] Shutting down plugin 'partition'
+2023-11-10T00:31:43.002314Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2023-11-10T00:31:43.003311Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2023-11-10T00:31:43.004311Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-11-10T00:31:43.005312Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-11-10T00:31:43.006314Z 0 [Note] Shutting down plugin 'MyISAM'
+2023-11-10T00:31:43.006314Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2023-11-10T00:31:43.008311Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-11-10T00:31:43.009311Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-11-10T00:31:43.010314Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-11-10T00:31:43.011309Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-11-10T00:31:43.012308Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-11-10T00:31:43.013309Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-11-10T00:31:43.014310Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-11-10T00:31:43.016313Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-11-10T00:31:43.017310Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-11-10T00:31:43.018310Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-11-10T00:31:43.019309Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-11-10T00:31:43.020308Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-11-10T00:31:43.021313Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-11-10T00:31:43.022311Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-11-10T00:31:43.023312Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-11-10T00:31:43.025312Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-11-10T00:31:43.026310Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2023-11-10T00:31:43.027312Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-11-10T00:31:43.028311Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-11-10T00:31:43.029312Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-11-10T00:31:43.030308Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-11-10T00:31:43.031312Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-11-10T00:31:43.032311Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-11-10T00:31:43.033310Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-11-10T00:31:43.047313Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-11-10T00:31:43.048312Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2023-11-10T00:31:43.049308Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-11-10T00:31:43.049308Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-11-10T00:31:43.050307Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2023-11-10T00:31:43.051311Z 0 [Note] Shutting down plugin 'InnoDB'
+2023-11-10T00:31:43.067316Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-11-10T00:31:43.068312Z 0 [Note] InnoDB: Starting shutdown...
+2023-11-10T00:31:43.183312Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\trampo10\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2023-11-10T00:31:43.188314Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 231109 21:31:43
+2023-11-10T00:31:44.380312Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2603505
+2023-11-10T00:31:44.382315Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-11-10T00:31:44.383309Z 0 [Note] Shutting down plugin 'MEMORY'
+2023-11-10T00:31:44.385313Z 0 [Note] Shutting down plugin 'CSV'
+2023-11-10T00:31:44.386314Z 0 [Note] Shutting down plugin 'sha256_password'
+2023-11-10T00:31:44.387311Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2023-11-10T00:31:44.388311Z 0 [Note] Shutting down plugin 'binlog'
+2023-11-10T00:31:44.390314Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2023-11-10T00:31:55.611122Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2023-11-10T00:31:55.611122Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2023-11-10T00:31:55.611122Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2023-11-10T00:31:55.611122Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2023-11-10T00:31:55.611122Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2023-11-10T00:31:55.611122Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 9568 ...
+2023-11-10T00:31:55.633124Z 0 [ERROR] Can't open shared library 'C:\trampo10\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Não foi possível encontrar o módulo especificado.)
+2023-11-10T00:31:55.635121Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2023-11-10T00:31:55.637120Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-11-10T00:31:55.639118Z 0 [Note] InnoDB: Uses event mutexes
+2023-11-10T00:31:55.639118Z 0 [Note] InnoDB: Memory barrier is not used
+2023-11-10T00:31:55.641124Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-11-10T00:31:55.642122Z 0 [Note] InnoDB: Number of pools: 1
+2023-11-10T00:31:55.643121Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2023-11-10T00:31:55.762124Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2023-11-10T00:31:55.776122Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-11-10T00:31:55.823123Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-11-10T00:31:56.038120Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-11-10T00:31:56.041124Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-11-10T00:31:56.074120Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2023-11-10T00:31:56.078123Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2023-11-10T00:31:56.080118Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2023-11-10T00:31:56.081119Z 0 [Note] InnoDB: Waiting for purge to start
+2023-11-10T00:31:56.143120Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603505
+2023-11-10T00:31:56.145121Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2023-11-10T00:31:56.148126Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\trampo10\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2023-11-10T00:31:56.166122Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-11-10T00:31:56.178122Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-11-10T00:31:56.180122Z 0 [Note] IPv6 is available.
+2023-11-10T00:31:56.181122Z 0 [Note]   - '::' resolves to '::';
+2023-11-10T00:31:56.183124Z 0 [Note] Server socket created on IP: '::'.
+2023-11-10T00:31:56.268123Z 0 [Note] InnoDB: Buffer pool(s) load completed at 231109 21:31:56
+2023-11-10T00:31:56.389125Z 0 [Note] Event Scheduler: Loaded 0 events
+2023-11-10T00:31:56.390122Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-11-10T00:32:13.991947Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2023-11-10T00:32:13.993943Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2023-11-10T00:32:13.994945Z 0 [Note] Shutting down slave threads
+2023-11-10T00:32:13.995951Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2023-11-10T00:32:13.996946Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-11-10T00:32:13.997942Z 0 [Note] Binlog end
+2023-11-10T00:32:13.998944Z 0 [Note] Shutting down plugin 'ngram'
+2023-11-10T00:32:13.999948Z 0 [Note] Shutting down plugin 'partition'
+2023-11-10T00:32:14.000946Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2023-11-10T00:32:14.001948Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2023-11-10T00:32:14.002947Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-11-10T00:32:14.003947Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-11-10T00:32:14.004945Z 0 [Note] Shutting down plugin 'MyISAM'
+2023-11-10T00:32:14.005945Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2023-11-10T00:32:14.006948Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-11-10T00:32:14.007945Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-11-10T00:32:14.008949Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-11-10T00:32:14.009946Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-11-10T00:32:14.010942Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-11-10T00:32:14.011945Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-11-10T00:32:14.012945Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-11-10T00:32:14.013945Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-11-10T00:32:14.014947Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-11-10T00:32:14.015946Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-11-10T00:32:14.017947Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-11-10T00:32:14.018946Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-11-10T00:32:14.019945Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-11-10T00:32:14.020946Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-11-10T00:32:14.021944Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-11-10T00:32:14.037951Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-11-10T00:32:14.038948Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2023-11-10T00:32:14.039944Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-11-10T00:32:14.041943Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-11-10T00:32:14.042946Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-11-10T00:32:14.043945Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-11-10T00:32:14.045946Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-11-10T00:32:14.046945Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-11-10T00:32:14.047949Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-11-10T00:32:14.067948Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-11-10T00:32:14.089946Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2023-11-10T00:32:14.090948Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-11-10T00:32:14.091947Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-11-10T00:32:14.092949Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2023-11-10T00:32:14.093948Z 0 [Note] Shutting down plugin 'InnoDB'
+2023-11-10T00:32:14.099948Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-11-10T00:32:14.100948Z 0 [Note] InnoDB: Starting shutdown...
+2023-11-10T00:32:14.212946Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\trampo10\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2023-11-10T00:32:14.215952Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 231109 21:32:14
+2023-11-10T00:32:15.471970Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2603549
+2023-11-10T00:32:15.474947Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-11-10T00:32:15.476945Z 0 [Note] Shutting down plugin 'MEMORY'
+2023-11-10T00:32:15.476945Z 0 [Note] Shutting down plugin 'CSV'
+2023-11-10T00:32:15.477942Z 0 [Note] Shutting down plugin 'sha256_password'
+2023-11-10T00:32:15.478974Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2023-11-10T00:32:15.479970Z 0 [Note] Shutting down plugin 'binlog'
+2023-11-10T00:32:15.481976Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2023-11-10T00:38:07.376708Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2023-11-10T00:38:07.376708Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2023-11-10T00:38:07.376708Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2023-11-10T00:38:07.376708Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2023-11-10T00:38:07.377707Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2023-11-10T00:38:07.377707Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 10296 ...
+2023-11-10T00:38:07.400707Z 0 [ERROR] Can't open shared library 'C:\trampo10\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Não foi possível encontrar o módulo especificado.)
+2023-11-10T00:38:07.402705Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2023-11-10T00:38:07.410704Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-11-10T00:38:07.426707Z 0 [Note] InnoDB: Uses event mutexes
+2023-11-10T00:38:07.427706Z 0 [Note] InnoDB: Memory barrier is not used
+2023-11-10T00:38:07.428704Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-11-10T00:38:07.429707Z 0 [Note] InnoDB: Number of pools: 1
+2023-11-10T00:38:07.430702Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2023-11-10T00:38:07.569706Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2023-11-10T00:38:07.583703Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-11-10T00:38:07.640707Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-11-10T00:38:07.817706Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-11-10T00:38:07.819704Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-11-10T00:38:07.853703Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2023-11-10T00:38:07.857710Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2023-11-10T00:38:07.859701Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2023-11-10T00:38:07.860702Z 0 [Note] InnoDB: Waiting for purge to start
+2023-11-10T00:38:07.930703Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603549
+2023-11-10T00:38:07.931704Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2023-11-10T00:38:07.935705Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\trampo10\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2023-11-10T00:38:07.949705Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-11-10T00:38:07.956706Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-11-10T00:38:07.958703Z 0 [Note] IPv6 is available.
+2023-11-10T00:38:07.958703Z 0 [Note]   - '::' resolves to '::';
+2023-11-10T00:38:07.959703Z 0 [Note] Server socket created on IP: '::'.
+2023-11-10T00:38:07.985708Z 0 [Note] InnoDB: Buffer pool(s) load completed at 231109 21:38:07
+2023-11-10T00:38:08.109706Z 0 [Note] Event Scheduler: Loaded 0 events
+2023-11-10T00:38:08.110706Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-11-10T00:38:18.072022Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2023-11-10T00:38:18.074021Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2023-11-10T00:38:18.076027Z 0 [Note] Shutting down slave threads
+2023-11-10T00:38:18.077022Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2023-11-10T00:38:18.078020Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-11-10T00:38:18.080022Z 0 [Note] Binlog end
+2023-11-10T00:38:18.081027Z 0 [Note] Shutting down plugin 'ngram'
+2023-11-10T00:38:18.082022Z 0 [Note] Shutting down plugin 'partition'
+2023-11-10T00:38:18.083022Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2023-11-10T00:38:18.084024Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2023-11-10T00:38:18.085023Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-11-10T00:38:18.086022Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-11-10T00:38:18.087022Z 0 [Note] Shutting down plugin 'MyISAM'
+2023-11-10T00:38:18.088022Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2023-11-10T00:38:18.089025Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-11-10T00:38:18.090025Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-11-10T00:38:18.091024Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-11-10T00:38:18.093024Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-11-10T00:38:18.094021Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-11-10T00:38:18.095022Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-11-10T00:38:18.096027Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-11-10T00:38:18.097022Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-11-10T00:38:18.098022Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-11-10T00:38:18.099025Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-11-10T00:38:18.100022Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-11-10T00:38:18.101021Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-11-10T00:38:18.102019Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-11-10T00:38:18.103025Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-11-10T00:38:18.104022Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-11-10T00:38:18.105021Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-11-10T00:38:18.107023Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2023-11-10T00:38:18.108023Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-11-10T00:38:18.109022Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-11-10T00:38:18.110019Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-11-10T00:38:18.111022Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-11-10T00:38:18.112020Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-11-10T00:38:18.113019Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-11-10T00:38:18.114020Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-11-10T00:38:18.131024Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-11-10T00:38:18.133022Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2023-11-10T00:38:18.134023Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-11-10T00:38:18.148021Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-11-10T00:38:18.149019Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2023-11-10T00:38:18.149019Z 0 [Note] Shutting down plugin 'InnoDB'
+2023-11-10T00:38:18.156026Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-11-10T00:38:18.157028Z 0 [Note] InnoDB: Starting shutdown...
+2023-11-10T00:38:18.266031Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\trampo10\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2023-11-10T00:38:18.270023Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 231109 21:38:18
+2023-11-10T00:38:19.553022Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2603577
+2023-11-10T00:38:19.557025Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-11-10T00:38:19.561025Z 0 [Note] Shutting down plugin 'MEMORY'
+2023-11-10T00:38:19.562024Z 0 [Note] Shutting down plugin 'CSV'
+2023-11-10T00:38:19.563022Z 0 [Note] Shutting down plugin 'sha256_password'
+2023-11-10T00:38:19.565023Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2023-11-10T00:38:19.567021Z 0 [Note] Shutting down plugin 'binlog'
+2023-11-10T00:38:19.571028Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2023-11-10T00:38:48.075279Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2023-11-10T00:38:48.075279Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2023-11-10T00:38:48.075279Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2023-11-10T00:38:48.075279Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2023-11-10T00:38:48.075279Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2023-11-10T00:38:48.075279Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 16600 ...
+2023-11-10T00:38:48.100277Z 0 [ERROR] Can't open shared library 'C:\trampo10\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Não foi possível encontrar o módulo especificado.)
+2023-11-10T00:38:48.103276Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2023-11-10T00:38:48.106283Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-11-10T00:38:48.108279Z 0 [Note] InnoDB: Uses event mutexes
+2023-11-10T00:38:48.108279Z 0 [Note] InnoDB: Memory barrier is not used
+2023-11-10T00:38:48.111280Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-11-10T00:38:48.113278Z 0 [Note] InnoDB: Number of pools: 1
+2023-11-10T00:38:48.114279Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2023-11-10T00:38:48.221278Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2023-11-10T00:38:48.232279Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-11-10T00:38:48.291280Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-11-10T00:38:48.520279Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-11-10T00:38:48.521279Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-11-10T00:38:48.558276Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2023-11-10T00:38:48.562281Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2023-11-10T00:38:48.563277Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2023-11-10T00:38:48.565279Z 0 [Note] InnoDB: Waiting for purge to start
+2023-11-10T00:38:48.619279Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603577
+2023-11-10T00:38:48.620278Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2023-11-10T00:38:48.631278Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\trampo10\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2023-11-10T00:38:48.632278Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-11-10T00:38:48.640280Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-11-10T00:38:48.642280Z 0 [Note] IPv6 is available.
+2023-11-10T00:38:48.643279Z 0 [Note]   - '::' resolves to '::';
+2023-11-10T00:38:48.644278Z 0 [Note] Server socket created on IP: '::'.
+2023-11-10T00:38:48.690279Z 0 [Note] InnoDB: Buffer pool(s) load completed at 231109 21:38:48
+2023-11-10T00:38:48.799280Z 0 [Note] Event Scheduler: Loaded 0 events
+2023-11-10T00:38:48.800281Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-11-10T00:39:08.333120Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2023-11-10T00:39:08.335118Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2023-11-10T00:39:08.336121Z 0 [Note] Shutting down slave threads
+2023-11-10T00:39:08.337118Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2023-11-10T00:39:08.338122Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-11-10T00:39:08.339119Z 0 [Note] Binlog end
+2023-11-10T00:39:08.341119Z 0 [Note] Shutting down plugin 'ngram'
+2023-11-10T00:39:08.342121Z 0 [Note] Shutting down plugin 'partition'
+2023-11-10T00:39:08.344121Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2023-11-10T00:39:08.345119Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2023-11-10T00:39:08.346120Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-11-10T00:39:08.347122Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-11-10T00:39:08.348117Z 0 [Note] Shutting down plugin 'MyISAM'
+2023-11-10T00:39:08.348117Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2023-11-10T00:39:08.349119Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-11-10T00:39:08.350119Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-11-10T00:39:08.351119Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-11-10T00:39:08.352119Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-11-10T00:39:08.353117Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-11-10T00:39:08.356122Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-11-10T00:39:08.357123Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-11-10T00:39:08.359122Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-11-10T00:39:08.360118Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-11-10T00:39:08.361116Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-11-10T00:39:08.362116Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-11-10T00:39:08.363115Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-11-10T00:39:08.365118Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-11-10T00:39:08.366121Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-11-10T00:39:08.366121Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-11-10T00:39:08.367118Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-11-10T00:39:08.368115Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2023-11-10T00:39:08.369116Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-11-10T00:39:08.370115Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-11-10T00:39:08.371121Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-11-10T00:39:08.372118Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-11-10T00:39:08.373121Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-11-10T00:39:08.375119Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-11-10T00:39:08.376119Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-11-10T00:39:08.381121Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-11-10T00:39:08.383119Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2023-11-10T00:39:08.383119Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-11-10T00:39:08.396120Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-11-10T00:39:08.397120Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2023-11-10T00:39:08.398117Z 0 [Note] Shutting down plugin 'InnoDB'
+2023-11-10T00:39:08.401119Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-11-10T00:39:08.402120Z 0 [Note] InnoDB: Starting shutdown...
+2023-11-10T00:39:08.519117Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\trampo10\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2023-11-10T00:39:08.522119Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 231109 21:39:08
+2023-11-10T00:39:09.453119Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2603605
+2023-11-10T00:39:09.459119Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-11-10T00:39:09.461117Z 0 [Note] Shutting down plugin 'MEMORY'
+2023-11-10T00:39:09.462118Z 0 [Note] Shutting down plugin 'CSV'
+2023-11-10T00:39:09.462118Z 0 [Note] Shutting down plugin 'sha256_password'
+2023-11-10T00:39:09.463115Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2023-11-10T00:39:09.468122Z 0 [Note] Shutting down plugin 'binlog'
+2023-11-10T00:39:09.478125Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
+2023-11-10T00:42:50.901242Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2023-11-10T00:42:50.901242Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2023-11-10T00:42:50.901242Z 0 [Warning] 'NO_AUTO_CREATE_USER' sql mode was not set.
+2023-11-10T00:42:50.901242Z 0 [Warning] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2023-11-10T00:42:50.902241Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2023-11-10T00:42:50.902241Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe (mysqld 5.7.11) starting as process 7876 ...
+2023-11-10T00:42:50.923240Z 0 [ERROR] Can't open shared library 'C:\trampo10\bin\database\mysql-5.7.11\lib\plugin\keyring_file.dll' (errno: 126 Não foi possível encontrar o módulo especificado.)
+2023-11-10T00:42:50.926239Z 0 [ERROR] Couldn't load plugin named 'keyring_file' with soname 'keyring_file.dll'.
+2023-11-10T00:42:50.928237Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-11-10T00:42:50.930236Z 0 [Note] InnoDB: Uses event mutexes
+2023-11-10T00:42:50.930236Z 0 [Note] InnoDB: Memory barrier is not used
+2023-11-10T00:42:50.931238Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2023-11-10T00:42:50.933239Z 0 [Note] InnoDB: Number of pools: 1
+2023-11-10T00:42:50.934238Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2023-11-10T00:42:51.042244Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2023-11-10T00:42:51.055240Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-11-10T00:42:51.163243Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2023-11-10T00:42:51.332240Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-11-10T00:42:51.334239Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-11-10T00:42:51.374240Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2023-11-10T00:42:51.379242Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2023-11-10T00:42:51.380240Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2023-11-10T00:42:51.382240Z 0 [Note] InnoDB: Waiting for purge to start
+2023-11-10T00:42:51.449239Z 0 [Note] InnoDB: 5.7.11 started; log sequence number 2603605
+2023-11-10T00:42:51.450241Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2023-11-10T00:42:51.463241Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\trampo10\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2023-11-10T00:42:51.465245Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2023-11-10T00:42:51.476244Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2023-11-10T00:42:51.478241Z 0 [Note] IPv6 is available.
+2023-11-10T00:42:51.479240Z 0 [Note]   - '::' resolves to '::';
+2023-11-10T00:42:51.480239Z 0 [Note] Server socket created on IP: '::'.
+2023-11-10T00:42:51.520241Z 0 [Note] InnoDB: Buffer pool(s) load completed at 231109 21:42:51
+2023-11-10T00:42:51.729240Z 0 [Note] Event Scheduler: Loaded 0 events
+2023-11-10T00:42:51.730241Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: ready for connections.
+Version: '5.7.11'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2023-11-10T01:30:38.750426Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: Normal shutdown
+
+2023-11-10T01:30:38.756425Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2023-11-10T01:30:38.757425Z 0 [Note] Shutting down slave threads
+2023-11-10T01:30:38.758428Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2023-11-10T01:30:38.759424Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-11-10T01:30:38.761426Z 0 [Note] Binlog end
+2023-11-10T01:30:38.764424Z 0 [Note] Shutting down plugin 'ngram'
+2023-11-10T01:30:38.765430Z 0 [Note] Shutting down plugin 'partition'
+2023-11-10T01:30:38.766427Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2023-11-10T01:30:38.767422Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2023-11-10T01:30:38.768430Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2023-11-10T01:30:38.769429Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2023-11-10T01:30:38.770427Z 0 [Note] Shutting down plugin 'MyISAM'
+2023-11-10T01:30:38.771425Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2023-11-10T01:30:38.773424Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2023-11-10T01:30:38.774424Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2023-11-10T01:30:38.775427Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2023-11-10T01:30:38.776427Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2023-11-10T01:30:38.778428Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2023-11-10T01:30:38.779426Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2023-11-10T01:30:38.780428Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2023-11-10T01:30:38.781422Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2023-11-10T01:30:38.782421Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2023-11-10T01:30:38.783425Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2023-11-10T01:30:38.786425Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2023-11-10T01:30:38.787426Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2023-11-10T01:30:38.787426Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2023-11-10T01:30:38.788422Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2023-11-10T01:30:38.789421Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2023-11-10T01:30:38.790420Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2023-11-10T01:30:38.791421Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2023-11-10T01:30:38.792425Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2023-11-10T01:30:38.793427Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2023-11-10T01:30:38.795431Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2023-11-10T01:30:38.796428Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2023-11-10T01:30:38.799426Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2023-11-10T01:30:38.801428Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2023-11-10T01:30:38.808424Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2023-11-10T01:30:38.809425Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2023-11-10T01:30:38.811424Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2023-11-10T01:30:38.812428Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2023-11-10T01:30:38.813426Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2023-11-10T01:30:38.815425Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2023-11-10T01:30:38.816423Z 0 [Note] Shutting down plugin 'InnoDB'
+2023-11-10T01:30:38.822423Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-11-10T01:30:38.823424Z 0 [Note] InnoDB: Starting shutdown...
+2023-11-10T01:30:38.938425Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\trampo10\bin\database\mysql-5.7.11\data\ib_buffer_pool
+2023-11-10T01:30:38.943427Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 231109 22:30:38
+2023-11-10T01:30:39.974424Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2603633
+2023-11-10T01:30:39.977430Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-11-10T01:30:39.978425Z 0 [Note] Shutting down plugin 'MEMORY'
+2023-11-10T01:30:39.979424Z 0 [Note] Shutting down plugin 'CSV'
+2023-11-10T01:30:39.982426Z 0 [Note] Shutting down plugin 'sha256_password'
+2023-11-10T01:30:39.983425Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2023-11-10T01:30:39.986431Z 0 [Note] Shutting down plugin 'binlog'
+2023-11-10T01:30:39.989427Z 0 [Note] C:\trampo10\bin\database\mysql-5.7.11\bin\mysqld.exe: Shutdown complete
+
